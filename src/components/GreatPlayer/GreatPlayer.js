@@ -6,14 +6,14 @@ import './GreatPlayer.css';
 
 const GreatPlayer = () => {
 
-  console.log(fakeData)
+//   console.log(fakeData)
 
     const [player, setPlayer] = useState([])
 
     const [selected, setSelected] = useState([])
 
-    const handleAddPlayer = () => {
-        const newSelected = [...selected, selected]
+    const handleAddPlayer = (player) => {
+        const newSelected = [...selected, player]
         setSelected(newSelected)
     }
 
@@ -25,7 +25,12 @@ const GreatPlayer = () => {
            <div className="player-section">
           
                {
-                   fakeData.map(player => <Player handleAddPlayer={handleAddPlayer} player={player} ></Player>)
+                   fakeData.map(player => <Player
+                    handleAddPlayer={handleAddPlayer}
+                     player={player} 
+                     key={player.id} >
+                         
+                     </Player>)
                }
            
 

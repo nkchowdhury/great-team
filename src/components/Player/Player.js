@@ -3,14 +3,18 @@ import './Player.css';
 
 const Player = (props) => {
     // console.log(props.player.name)
+    
+    
+    const {img, name, salary, country,role} = props.player;
+   
     return (
         <div className="player">
-                <img src={props.player.img}/>
-               <h2>{props.player.name}</h2>
-               <p>Salary:{props.player.salary}</p>
-               <p>Role:{props.player.role}</p>
-               <p>Country:{props.player.country}</p>
-               <button onClick={props.handleAddPlayer} className="player-btn">Add Team</button>
+                <img src={img}/>
+               <h2>{name}</h2>
+               <p>Salary:{salary}</p>
+               <p>Role:{role}</p>
+               <p>Country:{country}</p>
+               <button onClick={() => props.handleAddPlayer(props.player)} className="player-btn">Add Team</button>
             
         </div>
     );
