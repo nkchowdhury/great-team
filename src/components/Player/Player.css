@@ -1,0 +1,32 @@
+.player{
+    
+    border:1px solid lightgray;
+    border-radius:5px;
+    background:#fff;
+    width: 300px;
+    height:400px;
+    padding: 5px;
+    margin:8px;
+}
+
+.player img{
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+    margin-top: 30px;
+}
+.player-btn{
+    border:1px solid #feb633;
+    padding:10px 15px;
+    font: 20px;
+    color:#feb633;
+    background:#fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.player-btn:hover{
+    background:#feb633;
+    color:#fff;
+ 
+}

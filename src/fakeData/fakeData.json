@@ -1,0 +1,163 @@
+[
+    {
+        "id":1,
+        "name":"Tamim Iqbal",
+        "email":"cradmer0@themeforest.net",
+        "salary":300,
+        "role":"Batsman",
+        "country":"Bangladesh",
+        "img":"https://i.ibb.co/QJN0rmY/3497-1506324086.jpg"
+    },
+
+    {
+        "id":2,
+        "name":"Aiden Markram",
+        "email":"hmcvey1@nydailynews.com",
+        "salary":400,
+        "role":"All-rounder",
+        "country":"South Africa",
+        "img":"https://i.ibb.co/tsDM0sn/Aiden-Markram.jpg"
+    },
+    
+    {
+        "id":3,
+        "name":"Rohit Sharma",
+        "email":"info@Shahid-Afridi.com",
+        "salary":600,
+        "role":"Batsman",
+        "country":"India",
+        "img":"https://i.ibb.co/ZThZQrW/Rohit-Sharma.jpg"
+    },
+
+    {
+        "id":4,
+        "name":"Sakib Al Hasan",
+        "email":"hpert3@chron.com",
+        "salary":700,
+        "role":"All-rounder",
+        "country":"Bangladesh",
+        "img":"https://i.ibb.co/3fGKC2K/sakib.jpg"
+
+    },
+
+
+    {
+        "id":5,
+        "name":"Ben Stokes",
+        "email":"ben-stokes@e-cricket.com",
+        "salary":400,
+        "role":"All-rounder",
+        "country":"England",
+        "img":"https://i.ibb.co/9h16cQF/Ben-Stokes.jpg"
+    },
+
+
+    {
+        "id":6,
+        "name":"Mitchell Santner",
+        "email":"Mitchell Santner@unc.edu",
+        "salary":300,
+        "role":"All-rounder",
+        "country":"New Zealand",
+        "img":"https://i.ibb.co/XSXHGzb/Mitchell-Santner.jpg"
+    },
+
+    {
+        "id":7,
+        "name":"Washington Sundar",
+        "email":"gling6@army.mil",
+        "salary":500,
+        "role":"All-rounder",
+        "country":"India",
+        "img":"https://i.ibb.co/FhPkzhk/Washington-Sundar.jpg"
+    
+    },
+     
+    {
+        "id":8,
+        "name":"Najmul Hossain Shanto",
+        "email":"mcalyton7@biglobe.ne.jp",
+        "salary":200,
+        "role":"Batsman",
+        "country":"Bangladesh",
+        "img":"https://i.ibb.co/nnc0dVL/nazmul.jpg"
+    
+    },
+
+    {
+        "id":9,
+        "name":"Mushfiqur Rahim",
+        "email":"jclowsley8@ezinearticles.com",
+        "salary":300,
+        "role":"Wicket Keeper",
+        "country":"Bangladesh",
+        "img":"https://i.ibb.co/dMK7bj7/Mushfiqur-Rahim.jpg"
+    
+    },
+
+    {
+        "id":10,
+        "name":"Jason Holder",
+        "email":"gle9@altervista.org",
+        "salary":600,
+        "role":"All-rounder",
+        "country":"West Indies",
+        "img":"https://i.ibb.co/F0rMFSb/Jason-Holder.jpg"
+    
+    },
+
+    { 
+         "id":11,
+         "name":"Mohammad Nawaz",
+         "email":"info@mohammadnawaz.com",
+         "salary":750,
+         "role":"Batsman",
+         "country":"Pakistan",
+         "img":"https://i.ibb.co/61QcvnQ/Mohammad-Nawaz.jpg"
+        
+    },
+
+
+    {     
+        "id":12,
+        "name":"Wanindu Hasaranga",
+        "email":"tmatesb@virginia.edu",
+        "salary":400,
+        "role":"All-rounder",
+        "country":"Sri Lanka",
+        "img":"https://i.ibb.co/z85xcKv/Wanindu-Hasaranga.jpg"
+    
+    },
+
+    {
+        "id":13,
+        "name":"Mehedi Hasan",
+        "email":"bwormaldc@ning.com",
+        "salary":400,
+        "role":"All-rounder",
+        "country":"Bangladesh",
+        "img":"https://i.ibb.co/bbWN9qv/Mehedi-Hasan.jpg"
+    
+    },
+
+    {
+        "id":14,
+        "name":"Angelo Mathews",
+        "email":"corvissd@apple.com",
+        "salary":230,
+        "role":"All-rounder",
+        "country":"Sri Lanka",
+        "img":"https://i.ibb.co/rdcP8JJ/Angelo-Mathews.jpg"
+    
+    },
+
+    {
+        "id":15,
+        "name":"Darren Bravo",
+        "email":"ktempertone@youtu.be",
+        "salary":800,
+        "role":"Batsman",
+        "country":"West Indies",
+        "img":"https://i.ibb.co/2kF07GW/Darren-Bravo.jpg"
+    }
+]

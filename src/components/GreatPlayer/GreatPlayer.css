@@ -1,0 +1,17 @@
+.great-player-container{
+    display:flex;
+}
+
+.player-section{
+    width: 75%;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+   
+
+
+}
+.selected-section{
+    width: 25%;
+    border-left: 1px solid lightgray;
+}
