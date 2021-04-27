@@ -1,4 +1,5 @@
 import React from 'react';
+import './Selected.css'
 
 const Selected = (props) => {
     
@@ -14,14 +15,87 @@ const Selected = (props) => {
 
 
    };
+
+//    let selectedName = [];
+//    for (let i = 0; i < selected.length; i++) {
+//        let player = selected[i];
+//        selectedName = (selectedName + player.name);
+
+
+//    };
+
+
+//    let playerSalary = [];
+//    for (let i = 0; i < selected.length; i++) {
+//        let player = selected[i];
+//        playerSalary = (playerSalary + player.salary);
+
+
+//    };
     return (
 
-        <div>
+        <div className="selected-part">
 
-            <h2>Selection Summary</h2>
-            <h3>Total Player Selection:{selected.length}</h3>
-            <h3>Name:{props.selected.name}</h3>
-            <h3>TotalSalary:{totalSalary}</h3>
+        <table>
+       
+           
+
+            <caption>Selection Summary</caption>
+               
+            
+
+
+          <tbody>
+          <tr>
+              <td>Selected Player</td>
+              <td>Player Salary</td>
+     
+          </tr>
+
+
+          <tr>
+              
+              <td>
+
+
+              {
+                selected.map(player => <li className="list-style" >{player.name}</li>)
+              }
+              
+                  
+             
+              
+              </td>
+              <td>
+
+              {
+                selected.map(player => <li className="list-style" >{player.salary}</li>)
+              }
+             
+              
+              
+              
+              </td>
+     
+          </tr>
+
+
+           <tr>
+              
+              <td>Total Selection</td>
+              <td>{selected.length}</td>
+             
+          </tr>
+
+          <tr>
+              <td>Total Budget</td>
+              <td>{totalSalary}</td>
+             
+          </tr>
+
+          </tbody>
+
+        </table>
             
         </div>
 
